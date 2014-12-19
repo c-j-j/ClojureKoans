@@ -29,4 +29,4 @@
       [:middle :left] [:middle :middle] [:middle :right]
       [:bottom :left] [:bottom :middle] [:bottom :right]]
        (for [row [:top :middle :bottom] column [:left :middle :right]]
-         __)))
+         [row column])))
